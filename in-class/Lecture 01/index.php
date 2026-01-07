@@ -8,9 +8,12 @@
 <body>
     <h1>My Website</h1>
     <?php 
-    //Comments work with double slashes
-    print(1+2);
-    echo(1+2);
+        //Comments work with double slashes
+        print(1+2);
+        $variable = "Hello, World!";
+        print($variable);
+        print($_SERVER['SERVER_SOFTWARE']);
+        //phpinfo();
     ?>
 </body>
 </html>
