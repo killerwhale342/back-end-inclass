@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>My Website</h1>
+    <?php 
+    //Comments work with double slashes
+    print(1+2);
+    echo(1+2);
+    ?>
 </body>
 </html>
