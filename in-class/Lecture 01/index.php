@@ -10,10 +10,14 @@
     <?php 
         //Comments work with double slashes
         print(1+2);
+        echo "<br>";
         $variable = "Hello, World!";
         print($variable);
+        echo "<br>";
+        //superglobal variable
         print($_SERVER['SERVER_SOFTWARE']);
-        //phpinfo();
+        echo "<br>";
+        phpinfo();
     ?>
 </body>
 </html>
