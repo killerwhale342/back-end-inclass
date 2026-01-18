@@ -32,6 +32,13 @@ h1 {
     border: 2px solid rgba(0, 0, 0, 0.256);
     border-radius: 12px;
     margin: 2% 14% 2% 14%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    cursor: pointer;
+}
+
+.phone-google:hover {
+    background-color: #54b2ff;
 }
 
 .or-line {
@@ -46,4 +53,40 @@ hr {
     background: #00000041;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.signup-form {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.email-input {
+    margin-left: 8px;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.email-signup {
+    display: flex;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: center;
+    border: none;
+}
+
+.continue-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background-color: #54b2ff;
 }

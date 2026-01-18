@@ -1,3 +1,4 @@
+<?php include "../../project01-tester/handy_methods/handy_methods.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,14 +22,15 @@
             <hr class="line">
         </div>
         <div>
-            <form action="">
+            <form action="./index.php" method="GET" class="signup-form">
                 <fieldset class="email-signup">
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" required><br>
+                    <label for="email">Email: </label><br>
+                    <input type="email" name="email" id="email" required class="email-input"><br>
                 </fieldset>
                 <p>Already have an account? <a href="./">Log In</a>!</p>
-                <input type="submit" value="Continue" class="continue-btn">
+                <input type="submit" name="Sign up" value="Continue" class="continue-btn">
             </form>
+            <?php include "signup.php" ?>
         </div>
     </div>
 </body>

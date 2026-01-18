@@ -1,3 +1,4 @@
+<?php include "../project01-tester/handy_methods/handy_methods.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
