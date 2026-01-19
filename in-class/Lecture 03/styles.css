@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+}
+body {
+    margin: 0; /*remove extra space*/
+    background-color: darkgray;
+}
+#logo {
+    padding: 16px; /*vertical centering*/
+    font-weight: 700;
+}
+#container {
+    max-width: 800px;
+    background-color: #FFF;
+    margin: auto;
+    min-height: 1000px; /*fix later to resize according to the screen*/
+}
+/*navbar styling*/
+header {
+    background-color: hotpink;
+    color: #FFF;
+    display: flex; /*place logo next to nav*/
+    justify-content: space-between; /*maximize space between logo and nav*/
+}
+ul {
+    display: flex; /*list items next to each other*/
+}
+ul li {
+    padding: 0px 16px;
+    list-style: none; /*remove bullet points*/
+}
+ul li a {
+    color: #FFF; /*remove built-in link styling*/
+    text-decoration: none; 
+    font-weight: 700;
+}
+ul li:hover {
+    background-color: rgb(254, 160,170);
+}
