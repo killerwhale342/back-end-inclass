@@ -14,7 +14,7 @@
         <span class="lang"><a href="../Lecture 03/home/index.php">English</a></span>
         <a href="../Lecture 03/login/index.php">Go to Login page</a>
         <?php
-            phpinfo();
+            //phpinfo();
         ?>
         <?php include "task1.php"?>
     </section>

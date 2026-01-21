@@ -12,7 +12,7 @@ if($safe_email == "tttt@arcada.fi") {
         //username "verified" - allow login
         print("Welcome nack ".$username."!");
         $_SESSION['username'] = $username; //store username in session storage after successful login
-        header("Refresh:0; url=../home/"); //redirect to home page, not ideal but works for now
+        header("Refresh:0; url=../profile/"); //redirect to home page, not ideal but works for now
     } else {
         print("Username verification failed!");
     }

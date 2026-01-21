@@ -15,6 +15,15 @@
                 <input type="date">
                 <?php include "../task2.php" ?>
             </article>
+            <article>
+                <h2>Profile picture</h2>
+                <p>Please upload the file</p>
+                <form action="./index.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="Upload Profile Pic" name="submit">
+                </form>
+                <?php include "../task6.php" ?>
+            </article>
         </section>
     </div>
 </body>
